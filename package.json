@@ -1,0 +1,22 @@
+{
+  "name": "gde-viz",
+  "version": "1.0.0",
+  "description": "GDE demo front-end visualisation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/baetensmatthias/GDE_viz.git"
+  },
+  "author": "Matthias Baetens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/baetensmatthias/GDE_viz/issues"
+  },
+  "homepage": "https://gitlab.com/baetensmatthias/GDE_viz#readme",
+  "dependencies": {
+    "moment": "^2.23.0"
+  }
+}
