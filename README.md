@@ -1,16 +1,8 @@
-// TODO:
-// - hook up Dataflow to PubSub / GCF / Firestore
-// - make front-end viz with languages (2nd one below)
+# Deployment
 
-
-// To visualise:
-// - logs:
-//      - show latest message in real time
-// - languages: 
-//      - per window: breakdown of top 3/5 languages with their counts
-//      - order per window time (labels) (x-axis)
-//      - dataset = language
-//      - count of messages (y-axis)
-// - users:
-//      - 'leaderbord': max number of messages in 1 session
-//      - per user: other dataset (pick random 5: visualise their session length and number of messages with line width)
+In order to get Firebase ready for a new demo, delete all document in the collection using
+```bash
+export GCP_ACCOUNT=xxx # Set your GCP username
+export GCP_PROJECT=yyy # Set your GCP project
+firebase firestore:delete -r languages --account=$GCP_ACCOUNT --project=$GCP_PROJECT
+```
