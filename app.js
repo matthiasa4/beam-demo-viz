@@ -95,6 +95,10 @@ function renderChart(doc) {
     myChart.update();
 }
 
+firebase.initializeApp({
+    projectId: 'gde-front-end',
+});
+var db = firebase.firestore();
 // real-time listener
 db.collection('languages').orderBy('language').onSnapshot(snapshot => {
     let changes = snapshot.docChanges();
