@@ -17,6 +17,7 @@
   },
   "homepage": "https://gitlab.com/baetensmatthias/GDE_viz#readme",
   "dependencies": {
-    "moment": "^2.23.0"
+    "google-palette": "^1.1.0",
+    "moment": "^2.22.2"
   }
 }
