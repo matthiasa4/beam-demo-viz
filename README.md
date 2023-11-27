@@ -1,4 +1,11 @@
-# Deployment
+# Project set-up
+
+```bash
+npm install
+```
+
+# Deployment
+
 
 In order to get Firebase ready for a new demo, delete all document in the collection using
 ```bash
