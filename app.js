@@ -96,7 +96,7 @@ function renderChart(doc) {
 }
 
 firebase.initializeApp({
-    projectId: 'gde-front-end',
+    projectId: 'matthias-beam-demo',
 });
 var db = firebase.firestore();
 // real-time listener
